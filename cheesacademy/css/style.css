@@ -1,0 +1,572 @@
+/* ここから下に記載していく */
+p {
+  line-height: 30px;
+}
+.wrap {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+#header {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 400px;
+  height: 120px;
+  margin: 20px;
+}
+
+.navi {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content:space-between ;
+  padding: 50px;
+}
+
+.navi p {
+  font-size: 20px;
+  /* margin: 50px; */
+}
+                  
+
+.logo .img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.thumbnail {
+  padding-top: 30px;
+  width: 1000px;
+  height: 350px;
+  margin: 0 auto 60px;
+}
+
+.content {
+  margin: 60px auto 0px;
+}
+
+.about {
+  margin: 0 auto 60px;
+}
+
+.about .title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: yellow;
+  padding-bottom: 30px;
+}
+
+.about .subtitle {                                                    
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.about .text1 {
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.about .text2 {
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.about .text3 {
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.about .text4 {
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+/* .translate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.translate img {
+  width: 200px;
+} */
+
+
+
+
+.thumbnail { max-width: 1200px; margin: 30px auto 5px; padding: 0;}
+.thumbnail img,.thumbnail-nav img{ width: 100%;}
+.thumbnail-thumb {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+}
+.thumbnail-thumb img {width: 80px;}
+.thumbnail-thumb { max-width: 100%; margin: 0 auto;}
+.thumbnail-thumb li { margin: 5px;}
+
+.thumbnail-thumb .slick-current { opacity: 0.5;}
+.thumbnail-thumb div div div { cursor: pointer;}
+
+
+.fade { max-width: 600px; margin: 0 auto 50px; padding: 0; height: auto;}
+.fade img{ width: 100%;}
+
+/* コースのCSS */
+.course p.title {
+  text-align: center;
+  font-size: 24px;
+  color: black;
+  padding-bottom: 30px;
+}
+
+.course p.text {                                                    
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+/* container1のCSS */
+.container1 {
+  width: auto;
+  height: 520px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container1 img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+.container1 .text1 {
+  width: 50%;
+  height: auto;
+  padding: 120px 0px 120px 50px; 
+}
+
+.container1 p.title {
+  width: 480px;
+  text-align: left;
+  
+}
+
+.container1 p.text {
+  width: 480px;
+  text-align: left;
+  word-break: break-all;
+}
+
+.container2 {
+  width: auto;
+  height: 520px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container2 img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+.container2 .text2 {
+  width: 50%;
+  height: auto;
+  padding: 120px 0px 120px 50px; 
+}
+
+.container2 p.title {
+  width: 480px;
+  text-align: left;
+  
+}
+
+.container2 p.text {
+  width: 480px;
+  text-align: left;
+  word-break: break-all;
+}
+
+.container3 {
+  width: auto;
+  height: 520px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container3 img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+.container3 .text3 {
+  width: 50%;
+  height: auto;
+  padding: 120px 0px 120px 50px; 
+}
+
+.container3 p.title {
+  width: 480px;
+  text-align: left;
+  
+}
+
+.container3 p.text {
+  width: 480px;
+  text-align: left;
+  word-break: break-all;
+}
+
+.news {
+  width: auto;
+  height: auto;
+  margin: 0 auto 60px;
+}
+
+.news .title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: yellow;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.news .subtitle {
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.caption {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+  height: auto;
+}
+
+.caption_box1 {
+  width: auto;
+  height: auto;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.caption_box2 {
+  width: auto;
+  height: auto;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.caption_box3 {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.caption img {
+  width: 300px;
+  height: 200px;
+  margin: 0px auto 30px;
+}
+
+.caption .text {
+  width: auto;
+  height: auto;
+}
+
+.caption p.text1 {
+  text-align: left;
+  font-size: 16px;
+  margin: 0 auto 24px;
+}
+
+.caption p.text2 {
+  text-align: left;
+  font-size: 16px;
+}
+
+.hover_box{
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content:center;
+  margin: 0 auto 60px;
+}
+
+.hover {
+  width: 300px;
+  height: 60px;
+  line-height: 50px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.25);
+  background-color: yellow;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.6em 2em;
+  margin: 0 0 1em;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.hover:hover {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+  transform: translateY(-0.1875em);
+}
+
+.access {
+  margin: 0 auto 60px;
+}
+
+.access p.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.access p.subtitle {
+  text-align: center;
+  font-size: 18px;
+  color: black;
+  padding-bottom: 60px;
+}
+
+
+iframe {
+  margin: 0 auto 60px;
+}
+
+.detail {
+  margin: 0 auto;
+}
+
+th {
+  width: 200px;
+  height: 50px;
+  text-align: left;
+  margin: 0 0 30px;
+}
+
+td {
+  width: 400px;
+  height: 50px;
+  text-align: left;
+  margin: 0 0 30px;
+}
+
+
+.contact {
+  margin: 0 auto 30px;
+}
+
+.contact .title{
+  text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: yellow;
+    padding-bottom: 30px;
+}
+
+.contact .subtitle {
+  text-align: center;
+  font-size: 18px;
+  color: black;
+  padding-bottom: 60px;
+}
+
+.contact p.text1 {
+  text-align: center;
+  font-size: 16px;
+  color: black;
+}
+
+.contact p.text2 {
+  text-align: center;
+  font-size: 16px;
+  color: black;
+  padding-bottom: 70px;
+}
+
+
+.form-wrapper {
+  width: 700px;
+  margin: 70px auto 140px;
+  border-top: solid 2px #bfbfbf;
+}
+
+.form-inner {
+  width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.form-title {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  width: 240px;
+  height: 48px;
+  word-wrap: break-word;
+  padding-left: 16px;
+  padding-right: 64px;
+  border-right: 1px solid #bfbfbf;
+}
+
+.form-item {
+  display: flex;
+  align-items: center;
+  margin: 8px auto 8px 8px;
+}
+
+.form-item input {
+  width: 328px;
+
+}
+
+.form-item select {
+  width: 328px;
+
+}
+
+.form-inner-doki {
+  width: 700px;
+  height: 200px;
+  display: flex;
+  margin: 0 auto;
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.form-title-doki {
+  font-size: 16px;
+  align-items: center;
+  width: 240px;
+  height: 200px;
+  word-wrap: break-word;
+  padding-left: 16px;
+  padding-right: 64px;
+  border-right: 1px solid #bfbfbf;
+}
+
+.form-item-doki {
+  width: 328px;
+  margin: 8px auto 8px 8px;
+}
+label {
+  display: block;
+  align-items: center;
+  margin-bottom: 24px;
+
+}
+
+p.doki {
+  padding-top: 15px;
+
+}
+
+.strat {
+  margin-bottom:24px ;
+}
+
+.form-title-syousai {
+  font-size: 16px;
+  align-items: center;
+  width: 240px;
+  height: 150px;
+  word-wrap: break-word;
+  padding-left: 16px;
+  padding-right: 64px;
+  border-right: 1px solid #bfbfbf;
+}
+
+.form-item-syousai {
+  display: flex;
+  align-items: center;
+  margin: 8px auto 8px 8px;
+}
+
+p.syousai {
+  padding-top: 15px;
+}
+
+.submit {
+ 
+  margin: 30px auto 0;
+  display: flex;
+  justify-content: center;
+}
+
+.submit input {
+  width: 400px;
+  height: 60px;
+  background-color: yellow;
+  color: white;
+}
+
+
+#footer {
+  margin-top: 140px;
+  height: 80px;
+  width: 1270px;
+  background-color: #707070;
+}
+
+p.footer {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px; 
+}
+button {
+
+  width: 1200px;
+  height: 100px;
+  font-size: 50px;
+}
+.ppt {
+  width: 1200px;
+}
+
+.sakebi {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+
+.hover2 {
+  display: inline-block;
+  padding: 0.6em 2em;
+  margin: 0 0 1em;
+  background: red;
+  border: 0.1875em solid #333;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.hover2:hover {
+  background: #333;
+  color: #fff;
+}
